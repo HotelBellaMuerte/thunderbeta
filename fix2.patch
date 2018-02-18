@@ -1,0 +1,11 @@
+--- a/dom/base/DOMPrefs.h	2018-01-25 11:33:55.000000000 -0400
++++ b/dom/base/DOMPrefs.h.new	2018-01-26 20:03:01.990422629 -0400
+@@ -4,6 +4,8 @@
+  * License, v. 2.0. If a copy of the MPL was not distributed with this
+  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+ 
++#include "jsfriendapi.h"
++
+ #ifndef mozilla_dom_DOMPrefs_h
+ #define mozilla_dom_DOMPrefs_h
+ 

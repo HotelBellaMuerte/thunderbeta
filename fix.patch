@@ -1,0 +1,10 @@
+--- a/dom/bindings/Codegen.py	2018-01-25 11:33:55.000000000 -0400
++++ b/dom/bindings/Codegen.py.new	2018-01-26 19:09:50.103948605 -0400
+@@ -14355,6 +14355,7 @@
+             not hasCode and enums)
+ 
+         bindingHeaders["WrapperFactory.h"] = descriptors
++        bindingHeaders["DOMPrefs.h"] = descriptors
+         bindingHeaders["mozilla/dom/DOMJSClass.h"] = descriptors
+         bindingHeaders["mozilla/dom/ScriptSettings.h"] = dictionaries  # AutoJSAPI
+         # Ensure we see our enums in the generated .cpp file, for the ToJSValue
