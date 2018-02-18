@@ -1,0 +1,18 @@
+--- a/obj-x86_64-pc-linux-gnu/mail/installer/package-manifest	2018-01-12 22:13:16.887058211 -0400
++++ b/obj-x86_64-pc-linux-gnu/mail/installer/package-manifest.new	2018-01-12 22:18:27.397744992 -0400
+@@ -330,7 +330,6 @@
+ bin/components/dom_stylesheets.xpt
+ bin/components/dom_system.xpt
+ bin/components/dom_traversal.xpt
+-bin/components/dom_webspeechrecognition.xpt
+ bin/components/dom_workers.xpt
+ bin/components/dom_xbl.xpt
+ bin/components/dom_xhr.xpt
+@@ -540,7 +539,6 @@
+ bin/components/SlowScriptDebug.js
+ 
+ 
+-bin/components/dom_webspeechsynth.xpt
+ bin/components/nsAsyncShutdown.manifest
+ bin/components/nsAsyncShutdown.js
+ 
