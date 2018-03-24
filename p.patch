@@ -1,14 +1,14 @@
 --- a/mail/installer/package-manifest.in	2018-02-02 15:43:00.000000000 -0400
 +++ b/mail/installer/package-manifest.in.new	2018-02-04 14:02:04.244921091 -0400
-@@ -450,7 +450,6 @@
+@@ -448,7 +448,6 @@
+ @RESPATH@/components/dom_sidebar.xpt
  @RESPATH@/components/dom_storage.xpt
  @RESPATH@/components/dom_system.xpt
- @RESPATH@/components/dom_traversal.xpt
 -@RESPATH@/components/dom_webspeechrecognition.xpt
  @RESPATH@/components/dom_workers.xpt
- @RESPATH@/components/dom_xbl.xpt
- @RESPATH@/components/dom_xhr.xpt
-@@ -688,7 +687,6 @@
+ @RESPATH@/components/dom_xul.xpt
+ @RESPATH@/components/downloads.xpt
+@@ -682,7 +681,6 @@
  @RESPATH@/components/PeerConnection.manifest
  #endif
  
